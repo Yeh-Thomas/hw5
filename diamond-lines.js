@@ -7,13 +7,13 @@ function draw() {
 
   noFill();
 
-  for (i = 10; i <= 200; i += 10) {
+  for (i = 0; i <= 200; i += 10) {
 
     line(200 - i, i, 200 + i, i);
 
   }
 
-  for (l = 10; l <= 200; l += 10) {
+  for (l = 0; l <= 200; l += 10) {
 
     line(200 - l, 400 - l, 200 + l, 400 - l);
   }
